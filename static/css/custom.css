@@ -1,0 +1,85 @@
+#number-projects-nd {
+   font-size: 60px;
+}
+
+#total-donations-nd {
+   font-size: 60px;
+}
+
+
+
+
+.dc-chart g.row text {
+   fill: black;
+   font-size: 12px;
+}
+
+#total-projects {
+   background: #33CC99;
+   width: 200px;
+   position: relative;
+   height: 60px;
+   font-size: 29px;
+   color: white;
+   vertical-align: middle;
+   text-align: center;
+   padding-top: 12px;
+   padding-bottom: 0px;
+}
+
+#net-donations {
+   background: #33CC99;
+   width: 200px;
+   position: relative;
+   height: 60px;
+   font-size: 29px;
+   color: white;
+   vertical-align: middle;
+   text-align: center;
+   padding-top: 12px;
+   padding-bottom: 0px;
+}
+
+
+.dc-select-menu {
+   background: #33CC99;
+   width: 80%;
+   border: none;
+   position: relative;
+   height: 31px;
+   font-size: 15px;
+   color: white;
+   vertical-align: middle;
+   text-align: center;
+   padding-top: 4px;
+   padding-bottom: 0px;
+
+}
+
+.intro_button {
+   margin: 8px 20px;
+}
+/*footer > * {*/
+    /*display: inline-block;*/
+/*}*/
+footer a {
+    color: #777;
+}
+footer a:hover {
+    color: #333;
+    text-decoration: none;
+}
+#footLogo {
+    font-size: 0;
+    display: inline-block;
+    opacity: 0.65;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 75PX;
+    height: 15px;
+    background-image: url(/static/logo.png);
+    vertical-align: text-top;
+}
+#footLogo:hover {
+	opacity: 1;
+}
