@@ -55,3 +55,13 @@ def donor_projects():
 
 if __name__ == "__main__":
     app.run()
+
+
+# for project 2:
+# pull the data from the populations website http://statisticstimes.com/population/countries-by-population.php
+# convert table to csv , maybe theres a CI module on that (beautiful soup?)
+# reconcile the country names in this table and the literacy table
+# add both tables to database and join tables on table1.name == table2.name
+# can do this^ in mongo? else use SQL. can use SQL to dump the data to the website in json?
+# SQLAlchemy??? (also does it come with url parse?)? also is there a unit on SQL and flask?
+# do i need to convert it to mongodb style syntax for d3 to work? is there an sql way?
